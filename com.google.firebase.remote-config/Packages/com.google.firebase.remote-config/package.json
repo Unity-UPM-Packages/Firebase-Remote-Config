@@ -1,9 +1,9 @@
 {
   "name": "com.google.firebase.remote-config",
-  "displayName": "com.google.firebase.remote-config",
+  "displayName": "Firebase Remote Config",
   "description": "Firebase Remote Config description goes here.",
   "keywords": [],
-  "version": "1.0.0",
+  "version": "12.4.0",
   "unity": "2022.3",
   "documentationUrl": "https://github.com/Unity-UPM-Packages/Firebase-Remote-Config#documentation",
   "changelogUrl": "https://github.com/Unity-UPM-Packages/Firebase-Remote-Config/releases",
@@ -17,5 +17,16 @@
     "name": "Unity-UPM-Packages",
     "url": "https://github.com/Unity-UPM-Packages"
   },
-  "dependencies": {}
+  "dependencies": {
+    "com.google.firebase.app": "12.4.0"
+  },
+  "scopedRegistries": [
+    {
+      "name": "TripSoft",
+      "url": "https://verdaccio.tripdev.io/",
+      "scopes": [
+        "com.google"
+      ]
+    }
+  ]
 }
