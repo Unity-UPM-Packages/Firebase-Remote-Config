@@ -1,0 +1,14 @@
+{
+    "name": "com.google.firebase.remote-config",
+    "rootNamespace": "com.google.firebase.remote-config",
+    "references": [],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
